@@ -14,7 +14,7 @@ Day 6 - What The Elif Is This?
 
 Day 7 - Nesting Dolls Code
 
-Day 8 -
+Day 8 - Affirmation Generator
 
 Day 9 -
 
