@@ -5,10 +5,27 @@
 # Example 1
 
 print("SECURE LOGIN")
-userName = input("Please enter the username: ")
-if userName == "toor":
+print("+" * 10)
+userName = input("Please enter the username> ")
+password = input("Please enter the password> ")
+if userName == "toor" and password == "toor":
   print("Welcome, " + userName)
-elif userName == "root":
+elif userName == "root" and password == "root":
   print("Welcome back, greatest sysadmin ever!")
+else:
+  print("Go away!")
+
+# Challenge: Basically like the example. You must include 3 users and the else command for all others.
+
+print("SECURE LOGIN")
+print("+" * 10)
+userName = input("Please enter the username> ")
+password = input("Please enter the password> ")
+if userName == "toor" and password == "toor":
+  print("Welcome, " + userName)
+elif userName == "root" and password == "root":
+  print("Welcome back, greatest sysadmin ever!")
+elif userName == "admin" and password == "Passw0rd!":
+  print("Oh admin, my admin. Welcome back.")
 else:
   print("Go away!")
