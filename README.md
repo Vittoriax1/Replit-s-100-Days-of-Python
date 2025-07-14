@@ -16,6 +16,6 @@ Day 7 - Nesting Dolls Code
 
 Day 8 - Affirmation Generator
 
-Day 9 -
+Day 9 - Casting Spells On Your Code
 
 Day 10 - 
