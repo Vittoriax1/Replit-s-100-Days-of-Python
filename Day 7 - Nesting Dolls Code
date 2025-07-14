@@ -1,0 +1,42 @@
+# Day 7 of the 100 Days of Python with Replit.com
+
+""" Nesting is where we put an if statement within
+an if statement using the power of indenting. The second if
+statement within the first if statement must be indented and
+its print statement needs to be indented one more time. """
+
+# Example 1
+
+tvShow = input("What is your favorite tv show? ")
+if tvShow == "Mr. Robot":
+  print("No way, so do I!")
+  faveCharacter = input("Who is your favorite character? ")
+  if faveCharacter == "Elliot":
+    print("Right answer")
+  else:
+    print("Nah, Elliot's the greatest")
+elif tvShow == "Black Mirror":
+  print("You've got great taste!")
+  faveEp = input("What is your favorite episode? ")
+  if faveEp == "All":
+    print("They are all great, aren't they?")
+  else:
+    print("I disagree. They are all great.")
+else:
+  print("Yeah, that's cool and all…")
+
+# Day 7 Challenge - Create something similar, asking a user for their interests, with at least 3 nested questions.
+
+print("Fake ALIENS Fan Finder")
+print("-" * 20)
+
+q1 = input("Q1. Which is your movie of the Alien franchise? ")
+if q1 == "Aliens":
+  print("Right on! What a great movie!")
+  q2 = input("Q2. Who was your favorite character that didn\'t make it? ")
+  if q2 == "Hudson":
+     print("They\'re all around us, man! What are we gonna do now? ")
+elif q1 == "Predators":
+  print("Get to the choppah!")
+else:
+  print("Yeah, that\'s good too.")
